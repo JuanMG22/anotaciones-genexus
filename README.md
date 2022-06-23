@@ -32,8 +32,9 @@ n a 1, directa o indirecta
 | Unicidad de clave candidata              |                    Si                    |                    Si                    |
 | Reglas                                   |                    Si                    |                    No                    |
 
+---------------------------------------- ---------------------------------------- ---------------------------------------- 
 
-## SDTCliente From Cliente // From hace que recorra toda la tabla en los SDT, basicmaente como un ForEach
+    SDTCliente From Cliente // From hace que recorra toda la tabla en los SDT, basicmaente como un ForEach
 
 ---------------------------------------- ---------------------------------------- ---------------------------------------- 
 
