@@ -23,12 +23,19 @@ n a 1, directa o indirecta
 ## Bussiness Component sirve para todo tipo de actualizacion que no sea interactiva, es la transaccion puesta en un tipo de dato
 
 ### Cosas que se tienen en cuenta al actualizar la DB:
-Integridad referencial                  Bussiness Component controla
-Unicidad de clave primaria              Bussiness Component y Procedure controla
-Unicidad de clave candidata             Bussiness Component y Procedure controla
-Reglas                                  Bussiness Component controla
+
+
+|                 Controla                 |         Bussiness Component              |                Procedure                 |
+| ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
+| Integridad referencial                   |                    Si                    |                    No                    |
+| Unicidad de clave primaria               |                    Si                    |                    Si                    |
+| Unicidad de clave candidata              |                    Si                    |                    Si                    |
+| Reglas                                   |                    Si                    |                    No                    |
+
 
 ## SDTCliente From Cliente // From hace que recorra toda la tabla en los SDT, basicmaente como un ForEach
 
-## ForEach Product order (ProductExpirationDate) // Al colocar () se invierte el orden. En este caso se ordenaria de mayor a menor
-Endfor 
+---------------------------------------- ---------------------------------------- ---------------------------------------- 
+
+    ForEach Product order (ProductExpirationDate) // Al colocar () se invierte el orden. En este caso se ordenaria de mayor a menor
+    Endfor 
