@@ -34,9 +34,14 @@ n a 1, directa o indirecta
 
 ---------------------------------------- ---------------------------------------- ---------------------------------------- 
 
-    SDTCliente From Cliente // From hace que recorra toda la tabla en los SDT, basicmaente como un ForEach
+    SDTCliente From Cliente 
+    
+From hace que recorra toda la tabla en los SDT, basicamente como un ForEach. Sin el From solamente devuelve una fila
 
 ---------------------------------------- ---------------------------------------- ---------------------------------------- 
 
-    ForEach Product order (ProductExpirationDate) // Al colocar () se invierte el orden. En este caso se ordenaria de mayor a menor
+    ForEach Product order (ProductExpirationDate) 
+        
     Endfor 
+Al colocar () se invierte el orden. En este caso se ordenaria de mayor a menor
+    
